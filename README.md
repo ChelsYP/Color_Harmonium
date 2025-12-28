@@ -1,11 +1,12 @@
-#Color_Harmonium
-🎨 Color Harmonium
+# 🎨 Color Harmonium
+
 A Linux GUI Application for Managing Clothing Collections and Color-Based Outfit Recommendations
 
-📌 Overview
+## 📌 Overview
+
 Color Harmonium is a graphical clothing management application built using Bash, Zenity, and jq. The application enables users to organize clothing collections, categorize them by type and color, and receive intelligent outfit recommendations based on seasonal themes. All data is stored in structured JSON format to ensure portability and ease of maintenance.
 
-✨ Key Features
+## ✨ Key Features
 + User-friendly graphical interface powered by Zenity
 + Persistent storage using structured JSON
 + Comprehensive predefined color dataset and grouping
@@ -20,12 +21,12 @@ Full CRUD functionality:
 + Generate outfit recommendations
 + Delete clothing entries
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 * Bash Shell Scripting
 * Zenity (Linux graphical dialog interface)
 * jq (JSON data processing)
 
-📥 Installation & Setup
+## 📥 Installation & Setup
 1. Install Required Dependencies
 Ensure that Zenity and jq are installed on your Linux system.
 For Fedora / RHEL:
@@ -40,7 +41,7 @@ Save the script file as:
 4. Run the Application
   => ./color-harmonium.sh
 
-📂 Data Structure
+## 📂 Data Structure
 koleksi.json
 Stores the clothing collection data:
 [
@@ -53,7 +54,7 @@ Stores the clothing collection data:
 warna.json
 Contains the predefined color dataset (automatically generated if not available).
 
-📌 Main Menu Functions
+## 📌 Main Menu Functions
 Upon launching, the application provides the following options:
   👕 Add Clothing Item
   🧾 Display Clothing Collection
@@ -61,24 +62,24 @@ Upon launching, the application provides the following options:
   🗑 Delete Clothing Item
   🚪 Exit Application
   
-⚙️ Functional Workflow
+## ⚙️ Functional Workflow
 1. The user interacts with the system via Zenity dialogs.
 3. Clothing data is stored and manipulated using JSON via jq.
 4. Recommendations are generated through pattern-based color matching.
 5. Results are displayed using Zenity text dialogs for clarity and convenience.
 
-🧪 Testing Guidance
+## 🧪 Testing Guidance
 To verify proper functionality:
 * Add at least one Top (Atasan) and Bottom (Bawahan)
 * Validate the collection display feature
 * Generate outfit recommendations across all seasonal themes
 * Test deletion functionality and confirm updates to the dataset
 
-📝 Notes
+## 📝 Notes
 ==> This application is designed for Linux desktop environments that support Zenity.
 ==> The predefined color dataset can be customized and expanded.
 ==> Suitable for personal use, academic projects, and demonstrative purposes.
 
-👨‍💻 Developer Statement
+## 👨‍💻 Developer Statement
 This project was developed to demonstrate a practical implementation of graphical user interaction in Linux using shell scripting, JSON data handling, and color-based recommendation logic.
 
