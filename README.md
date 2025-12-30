@@ -29,10 +29,13 @@ Full CRUD functionality:
 ## 📥 Installation & Setup
 1. Install Required Dependencies
 Ensure that Zenity and jq are installed on your Linux system.
-For Fedora / RHEL:
-  => sudo dnf install zenity jq -y
-For Ubuntu / Debian:
-  => sudo apt install zenity jq -y
+
+      a. For Fedora / RHEL:
+        => sudo dnf install zenity jq -y
+      
+      b. For Ubuntu / Debian:
+        => sudo apt install zenity jq -y
+  
 2. Save the Script
 Save the script file as:
   => color-harmonium.sh
@@ -44,6 +47,7 @@ Save the script file as:
 ## 📂 Data Structure
 koleksi.json
 Stores the clothing collection data:
+
 [
   {
     "jenis": "Atasan",
@@ -51,6 +55,7 @@ Stores the clothing collection data:
     "warna": "black"
   }
 ]
+
 warna.json
 Contains the predefined color dataset (automatically generated if not available).
 
@@ -76,8 +81,11 @@ To verify proper functionality:
 * Test deletion functionality and confirm updates to the dataset
 
 ## 📝 Notes
+
 ==> This application is designed for Linux desktop environments that support Zenity.
+
 ==> The predefined color dataset can be customized and expanded.
+
 ==> Suitable for personal use, academic projects, and demonstrative purposes.
 
 ## 👨‍💻 Developer Statement
